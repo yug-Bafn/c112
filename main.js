@@ -20,7 +20,7 @@ png_quality:90
  }
  console.log('ml5 version:', ml5.version);
 
- classfier =ml5.imageClassifier(                                      )
+ classfier =ml5.imageClassifier( 'https://teachablemachine.withgoogle.com/models/CSauLCzl7/model.json',modelLoaded);
   function modelLoaded() { 
     console.log('modelLoaded!');
   }
